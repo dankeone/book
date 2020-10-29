@@ -1,0 +1,197 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+hr{
+	color: rgba(0,0,0, .3);
+}
+.header{
+	width: 100%;
+	height: 60px;
+	background: #000;
+	color: #fff;
+}
+.header__tittle{
+	height: 100%;
+	display: flex;
+	margin-left: 10%;
+	margin-right: 10%; 
+	justify-content: space-between;
+}
+.logo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.nav{
+	display: flex;
+	justify-content: center;
+	align-items: center;	
+}
+.nav ul{
+	display: flex;
+	list-style-type: none;
+}
+.nav ul li{
+	margin-left: 10px;
+	margin-right: 10px;
+
+}
+.main{
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.first__tittle{
+	margin-top: 70px;
+	margin-bottom: 70px;
+	display: flex;
+}
+.first__text{
+	display: flex;
+	justify-content: center;
+
+	flex-direction: column;
+	width: 40%;
+}
+.first__text h2{
+	font-size: 50px;
+	margin-bottom: 10px;
+}
+.first__tittle .first__photo{
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.second__tittle{
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.second__tittle h2{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.first__wrapper{
+	margin-top: 20px;
+	display: flex;
+
+}
+.first__wrapp{
+	margin-left: 5%;
+	margin-right: 5%;	
+}
+.first__wrapp .avg, .first__wrapp h3{
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	margin-bottom: 10px;
+}
+.avg img{
+	width: 90px;
+}
+.first__wrapp .text{
+	
+ 	text-align: center;
+}
+.first__gallary{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+.gallary__content{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center; 
+	max-width: 75%;
+}
+.gallary__content .gallary__photo{
+	display: flex;
+	justify-content: center; 
+	align-items: center;
+	max-width: 320px;
+	margin: 20px;
+}
+.gallary__content .gallary__photo img{
+	max-width: 320px;
+}
+.second__gallary{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: column;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.second__section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+	max-width: 75%;
+}
+.second__section .gallary__photo{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	max-width: 320px;
+	margin: 20px;
+}
+.second__section .gallary__photo img{
+	max-width: 320px;
+}
+.after__gallary{
+	background-color: #000;
+	color: #fff;
+	height: 110px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 20px;
+	padding:0 50px;
+}
+.aboutmoney__tittle{
+	margin-bottom: 20px;
+}
+.aboutmoney__tittle ul{
+	padding-left: 15px;
+}
+.form__tittle h2{
+	margin-bottom: 20px;
+}
+input[type=text] {
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+.form__tittle{
+	margin-bottom: 20px;
+	margin-top: 20px;
+}
+.footer{
+	background-color: #000;
+
+}
+.footer__wrapper{
+	margin-left: 10%;
+	margin-right: 10%;
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.footer__wrapp{
+	margin: 20px 30px;
+	color: #fff;
+}
+.footer__wrapp h3{
+	margin-bottom: 10px;
+}
