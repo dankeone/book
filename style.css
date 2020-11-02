@@ -43,8 +43,8 @@ h1{
 
 }
 .main{
-	margin-left: 10%;
-	margin-right: 10%;
+	margin:0 auto;
+	max-width: 1100px;
 }
 .first__tittle{
 	margin-top: 70px;
@@ -119,17 +119,19 @@ h1{
 	flex-direction: row;
 	justify-content: center;
 	align-items: center; 
-	max-width: 75%;
+	max-width: 1100px;
 }
 .gallary__content .gallary__photo{
 	display: flex;
 	justify-content: center; 
 	align-items: center;
 	max-width: 320px;
+	min-width: 200px;
 	margin: 20px;
 }
 .gallary__content .gallary__photo img{
 	max-width: 320px;
+	min-width: 200px;
 }
 .gallary__tittle h2{
 	font-family: arial;
@@ -203,7 +205,8 @@ input[type=text] {
 	font-family: arial;
 	font-size: 40px;
 }
-label{
+label
+{
 	font-family: arial;
 	font-size: 20px;
 }
